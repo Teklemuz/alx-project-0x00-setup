@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../components/Button"; 
+import Button from "@/components/Button"; 
 import Card from "@/components/Card"; 
 
 const Landing: React.FC = () => {
@@ -12,6 +12,8 @@ const Landing: React.FC = () => {
         <Button title="Small Button" styles="small" shape="rounded-sm" />
         <Button title="Medium Button" styles="medium" shape="rounded-md" />
         <Button title="Large Button" styles="large" shape="rounded-full" />
+        <Button title="Custom Button" styles="custom" shape="rounded-lg" />
+
       </div>
 
       {/* Card Instances */}
